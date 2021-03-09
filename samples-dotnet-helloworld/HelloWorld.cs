@@ -25,7 +25,7 @@ namespace HelloWorld
                 // Create connection string
                 connect.ConnectionString = "Server = " + ip + "; Port = " + port + "; Namespace =  " + Namespace + "; Password = " + password + "; User ID = " + username;
                 connect.Open();
-                Console.WriteLine("Hello World! You have successfully connected to InterSystems IRIS. Press any key to continue.");
+                Console.WriteLine("Hello World! You have successfully connected");
                 Console.ReadKey();
             }
             catch (Exception e)
